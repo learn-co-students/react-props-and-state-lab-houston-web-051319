@@ -2,7 +2,7 @@ import React from 'react'
 
 class Pet extends React.PureComponent {
   render() {
-    const {id,name,gender,age,weight,type,isAdopted} = this.props
+    const {id,name,gender,age,weight,type,isAdopted} = this.props.pet
     return (
       <div className="card">
         <div className="content">
